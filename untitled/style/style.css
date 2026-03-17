@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    background-color: #C9A5AA;
+
+}
+
+nav {
+    background-color: #F4D3D3;
+    display: inline-block;
+    margin-bottom: 16px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+
+}
+nav ul li{
+    display: inline-block;
+    padding: 0 21px;
+}
+nav ul{
+    width: 100%;
+    padding: 0 150px;
+
+}
+
+.wrapper {
+    width: 800px;
+    margin: 64px auto;
+}
+
+main{
+    background-color: white;
+    border-radius: 16px 16px 0 0;
+    padding: 30px 50px;
+
+}
+
+.extra_info{
+    background-color: #E9E9E9;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+h1{
+    margin-bottom: 16px;
+
+}
+
+article section{
+    margin-bottom: 16px;
+}
+
+.info h2{
+    margin-bottom: 8px;
+}
+
+figure{
+    margin-bottom: 16px;
+    text-align: center;
+    background-color: #F4D3D3;
+    padding: 35px 30px 15px 30px;
+    border-radius: 12px;
+}
+figure img{
+    width: 640px;
+    height: auto;
+    padding: 10px;
+}
+
+.biography h2{
+    margin-bottom: 8px;
+}
+
+.position h2{
+    margin-bottom: 8px;
+}
+
+.filmography h2{
+    margin-bottom: 8px;
+}
+
+.filmography ol{
+    background-color: #F4D3D3;
+    padding: 16px;
+    border-radius: 12px;
+    width: 100%;
+}
