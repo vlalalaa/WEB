@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.wrapper{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    color: #464646;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+.logo-img{
+    background: linear-gradient(rgb(173, 84, 220), rgb(224, 67, 170));
+    padding: 15px;
+    border-radius: 50%;
+}
+.logo-text{
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav ul {
+    display: flex;
+    column-gap: 10px;
+}
