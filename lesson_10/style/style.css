@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: #E7EEFE;
+    color: #101727;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.wrapper{
+    width: 1400px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.header{
+    background: #fff;
+    border-bottom: 1px solid #d9dbe8;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px 24px;
+}
+
+.header-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.logo span{
+    font-size: 30px;
+    line-height: 36px;
+}
+
+.logo{
+    font-size: 24px;
+    line-height: 32px;
+    color: #4f39f6;
+    font-weight: 700;
+}
+
+nav ul{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 15px;
+    align-items: center;
+
+
+}
+
+nav ul li a{
+    font-size: 16px;
+    line-height: 36px;
+}
+
+nav ul li a:hover{
+    color: #4f39f6;
+}
+
+.header-btn{
+    justify-self: end;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 10px;
+    background: #4f39f6;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.header-btn:hover{
+    background: #4834e4;
+}
+
+.hero{
+    padding: 64px 0;
+    text-align: center;
+}
+
+.hero-grid{
+    display: grid;
+    justify-items: center;
+    row-gap: 15px;
+}
+
+.hero h1{
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.hero p{
+    font-size: 20px;
+    line-height: 28px;
+    color: #5e656f;
+}
+
+.hero-btn{
+    margin-top: 20px;
+    display: grid;
+    grid-auto-flow: column;
+    gap: 15px;
+}
+
+.btn{
+    display: grid;
+    place-items: center;
+    padding: 12px 32px;
+    font-size: 18px;
+    line-height: 28px;
+    border-radius: 10px;
+    border: 2px solid #4f39f6;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btn-start{
+    background: #4f39f6;
+    color: #fff;
+    font-weight: 500;
+}
+
+.btn-start:hover{
+    background: #4834e4;
+}
+
+.btn-more{
+    background: #ffffff;
+    color: #2205f8;
+}
+
+.btn-more:hover{
+    background: transparent;
+}
+
+.cards-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card{
+    background: #fff;
+    border-radius: 10px;
+    padding: 24px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-rows: repeat(5, auto);
+    row-gap: 15px;
+}
+
+.card-icon{
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.card h2{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 500;
+}
+
+.card p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #5e656f;
+    border-bottom: 1px solid rgba(185, 185, 185, 0.33);
+    padding-bottom: 15px;
+}
+
+.card h3{
+    font-size: 14px;
+    line-height: 20px;
+    color: #5e656f;
+}
+
+
+
+.tags span{
+    display: inline-grid;
+    align-items: center;
+    padding: 4px 12px;
+    background: #e2e6ff;
+    color: #4f39f6;
+    border-radius: 20px;
+    margin: 10px 3px 0 0;
+
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+.footer{
+    margin-top: 64px;
+    background: #101727;
+    color: #fff;
+    padding: 48px 24px;
+}
+
+.footer-container{
+    display: grid;
+    row-gap: 15px;
+}
+
+.footer-top{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    align-items: start;
+    border-bottom: 1px solid #5e656f;
+
+}
+
+.footer-logo{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.footer-column h3{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.footer-column p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #5e656f;
+    margin-bottom: 8px;
+}
+
+.footer-column ul li{
+    font-size: 16px;
+    line-height: 24px;
+    color: #5e656f;
+    margin-bottom: 8px;
+}
+
+.footer-column ul li:hover{
+    color: #ffffff;
+}
+
+.social a{
+    margin-right: 8px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.subscribe-form input{
+    background: #1e2939;
+    border: 1px solid #5e656f;
+    width: 220px;
+    height: 42px;
+    border-radius: 10px;
+    padding: 8px 16px;
+    margin-right: 8px;
+}
+
+.subscribe-form button{
+    background: #4834e4;
+    border: none;
+    width: 45px;
+    height: 42px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.footer-bottom{
+    margin-top: 32px;
+    text-align: center;
+    color: #5e656f;
+    font-size: 16px;
+    line-height: 24px;
+}
