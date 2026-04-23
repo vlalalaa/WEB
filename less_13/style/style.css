@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: Inter, sans-serif;
+    background: #ffffff;
+    color: #262626;
+}
+
+.wrapper{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(124, 124, 124, 0.57);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2), 0 0 4px rgba(0, 0, 0, 0.12), 0 0 8px rgba(0, 0, 0, 0.12);
+    padding: 10px 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ef6d6d;
+    display: flex;
+    gap: 5px;
+}
+
+.logo-text{
+    color: #222222;
+}
+
+.nav-menu ul{
+    display: flex;
+    gap: 10px;
+
+}
+
+.nav-menu ul li a{
+    color: #262626;
+}
+
+.nav-menu ul li a:hover{
+    color: #ef6d6d;
+}
+
+.preview-box{
+    position: relative;
+    width: 100%;
+}
+
+.status{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.online{
+    background: #4daa0c;
+}
+
+.offline{
+    background: #d13838;
+}
+
+.info-alert{
+    position: relative;
+    top: -15px;
+    background: #9bbaf3;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #6e81ae;
+}
+
+.fixed-chat-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #005cff;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 25px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.card-grid{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.web-card{
+    background: #efefef;
+    border-radius: 10px;
+    overflow: hidden;
+    flex: 1;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.preview-box img{
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.card-info{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.card-info button{
+    width: 100%;
+    padding: 10px 25px;
+    background: #ef6d6d;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.card-info button:hover{
+    background: #e85151;
+}
+
+.container{
+    height: 1000px;
+    background: linear-gradient(#ffffff, #c1c1c1);
+    padding: 20px;
+}
+
+footer{
+    background: #c1c1c1;
+    border-radius: 0 0 5px 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+main{
+    margin-top: 40px;
+}
