@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    background: #0f172b;
+    color: white;
+}
+
+
+header{
+    padding: 16px 24px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(15, 23, 43, 0.76);
+    border-bottom: 1px solid #f4f4f4;
+    width: 100%;
+}
+
+main{
+    margin: 0 300px;
+}
+
+nav{
+   display: flex;
+    gap: 1200px;
+    color: #ffff;
+    margin: 0 300px;
+
+}
+
+.logo{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.logo-color{
+    color: #2b7fff;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: bold;
+}
+
+.menu{
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.menu:hover{
+    color: #2b7fff;
+}
+
+.main{
+    padding: 80px 24px;
+    position: relative;
+}
+
+h1{
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: bold;
+    color: #51c3ff;
+    margin-bottom: 16px;
+}
+
+.main svg{
+    position: absolute;
+    left: 1100px;
+    top: 50px;
+    color: #1a2f59;
+}
+
+.description-main{
+    color: #b4b9bf;
+    font-size: 20px;
+    line-height: 28px;
+    max-width: 675px;
+}
+
+.wrapper-description{
+    padding: 64px 24px;
+}
+
+.explore{
+    position: relative;
+    margin-bottom: 96px;
+}
+
+.explore h2{
+    position: sticky;
+    padding: 16px 0;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: bold;
+    border-bottom: 1px solid #717171;
+}
+
+.career-cards{
+    position: relative;
+    display: flex;
+    gap: 40px;
+}
+
+.career-card{
+    background: #1d293d;
+    border-radius: 10px;
+    border: 1px solid #f4f4f4;
+    padding: 24px;
+    max-width: 390px;
+    position: relative;
+    margin-top: 40px;
+}
+
+.status{
+    position: relative;
+    top: -10px;
+    padding: 4px 12px;
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 20px;
+}
+
+.hot{
+    background: #fb2c36;
+}
+
+.new{
+    background: #00c950;
+}
+
+.trending{
+    background: #2b7fff;
+}
+
+.career-card h3{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.career-card p{
+    color: #b4b9bf;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.tags span{
+    display: inline-grid;
+    align-items: center;
+    padding: 4px 12px;
+    background: #2b3b5a;
+    border-radius: 10px;
+    border: 1px solid #838383;
+    font-size: 14px;
+    line-height: 20px;
+    color: #98ddff;
+    margin: 10px 3px 0 0;
+}
+
+.career-card:hover{
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2), 0 0 4px rgba(0, 0, 0, 0.12), 0 0 8px rgba(0, 0, 0, 0.12);
+}
+
+.why-it{
+    position: relative;
+    margin-bottom: 96px;
+
+}
+
+.why-it h2{
+    position: sticky;
+    padding: 16px 0;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: bold;
+    border-bottom: 1px solid #717171;
+}
+
+.choose-cards{
+    position: relative;
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.choose-card{
+    background: #1d293d;
+    border-radius: 10px;
+    border: 1px solid #f4f4f4;
+    padding: 24px;
+    width: 395px;
+    position: relative;
+}
+
+.choose-card span{
+    padding: 10px;
+    font-size: 24px;
+    line-height: 32px;
+    background: #1a325d;
+    border-radius: 10px;
+}
+
+.choose-card h3{
+    font-size: 18px;
+    line-height: 28px;
+    margin: 16px 0 8px 0;
+}
+
+.choose-card p{
+    color: #b4b9bf;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.roadmap{
+    position: relative;
+    margin-bottom: 96px;
+}
+
+.roadmap h2{
+    position: sticky;
+    padding: 16px 0;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: bold;
+    border-bottom: 1px solid #717171;
+}
+
+.roadmap-cards{
+    position: relative;
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
